@@ -1,0 +1,15 @@
+@import "weather.css";
+@import "years.css";
+@import "time.css";
+@import "greeting.css";
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+:root {
+  --white: rgb(255, 255, 255);
+  --weight: 700;
+}
