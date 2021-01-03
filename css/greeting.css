@@ -4,11 +4,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cadetblue;
   margin-bottom: 60px;
 }
 
 .greeting_data {
-  font-size: 40px;
+  font-size: 50px;
   color: var(--white);
+}
+
+.greeting_name input {
+  background-color: transparent;
+  border: none;
+  width: 270px;
+  font-size: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.greeting_name input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+.greeting_name input:focus {
+  outline: none;
+  color: white;
+  text-align: left;
+}
+
+.greeting_name input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.greeting_span {
+  margin-left: 10px;
+  font-size: 50px;
+  color: var(--white);
+}
+
+.greeting_span:hover {
+  cursor: pointer;
+}
+
+.form_none {
+  display: none;
 }
