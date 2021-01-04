@@ -1,7 +1,8 @@
-@import "weather.css";
-@import "years.css";
-@import "time.css";
-@import "greeting.css";
+@import "component/weather.css";
+@import "component/years.css";
+@import "component/time.css";
+@import "component/greeting.css";
+@import "component/focus_todo.css";
 
 body {
   width: 100%;

@@ -13,29 +13,55 @@
         <span class="weather_place weather__com">ddd</span>
       </div>
     </div>
-
+    <!--weather_top_box-->
     <div class="date_year">
       <span class="date_year__data"></span>
     </div>
-
+    <!--date_year_box-->
     <div class="date_time">
       <span class="date_time__data"></span>
     </div>
-
+    <!--date_time_box-->
     <div class="greeting">
       <span class="greeting_data"></span>
       <form class="greeting_name">
-        <input
-          id="ddddd"
-          type="text"
-          placeholder="Your name?"
-          autocomplete="off"
-        />
+        <input type="text" placeholder="Your name?" autocomplete="off" />
       </form>
       <span class="greeting_span"></span>
     </div>
-
+    <!--greeting_box-->
+    <div class="today_focus_total">
+      <div class="today_focus">
+        <h3 class="today_title">What is Your main focus for today?</h3>
+        <form class="today_focus_form">
+          <input type="text" />
+        </form>
+      </div>
+    </div>
+    <!--forcus_box-->
+    <div class="today_work_total">
+      <div class="today_work_box">
+        <h3 class="today_work_title">Today focus work</h3>
+        <div class="today_work_span_box">
+          <div class="work_check_box display_none">
+            <form class="work_check_form">
+              <input class="work_check" type="checkbox" name="checkbox" />
+            </form>
+          </div>
+          <span class="today_work"></span>
+          <form class="work_del display_none">
+            <i class="far fa-times-circle fa-lg"></i>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--today_work_box-->
+    <script
+      src="https://kit.fontawesome.com/43ef9375c1.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js\clocktime.js"></script>
     <script src="js\greeting.js"></script>
+    <script src="js\focus_todo.js"></script>
   </body>
 </html>

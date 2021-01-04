@@ -7,13 +7,16 @@ function getTime() {
   const years = date.getFullYear();
   const month = date.getMonth() + 1;
   const getdate = date.getDate();
-  const hours = date.getHours();
+  var hours = date.getHours();
+  const ampm = hours >= 12 ? "PM" : "AM";
   const minutes = date.getMinutes();
   const seconds = date.getSeconds();
+  hours = hours % 12;
+  hours = hours ? hours : 12;
   yearTitle.innerText = `${years}.${month < 10 ? `0${month}` : month}.${
     getdate < 10 ? `0${getdate}` : getdate
   }`;
-  timeTitle.innerText = `${hours < 10 ? `0${hours}` : hours} : ${
+  timeTitle.innerText = `${ampm} ${hours < 10 ? `0${hours}` : hours} : ${
     minutes < 10 ? `0${minutes}` : minutes
   } : ${seconds < 10 ? `0${seconds}` : seconds} `;
 }
