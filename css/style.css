@@ -3,11 +3,16 @@
 @import "component/time.css";
 @import "component/greeting.css";
 @import "component/focus_todo.css";
+@import "component/todolis.css";
 
 body {
   width: 100%;
   height: 100%;
   margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5);
 }
 

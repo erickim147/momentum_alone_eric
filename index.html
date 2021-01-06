@@ -56,6 +56,35 @@
       </div>
     </div>
     <!--today_work_box-->
+    <form class="todo_input_form">
+      <input class="todo_input" type="text" placeholder="Write a To do" />
+    </form>
+    <!--todo_input_box-->
+    <div class="todo_box">
+      <div class="todolist_title_box">
+        <div class="pending_box">
+          <span>Active</span>
+        </div>
+        <div class="success_box">
+          <span>Completed</span>
+        </div>
+      </div>
+      <div class="list_box">
+        <div class="pending_list">
+          <ul class="pending_list_ul"></ul>
+        </div>
+        <div class="success_list">
+          <ul class="success_list_ul"></ul>
+        </div>
+      </div>
+    </div>
+    <!--todo_total_box-->
+    <div class="todo_click_box">
+      <span class="click_todolist">Click on the Todo-List!</span>
+      <i id="todo_input_close" class="far fa-times-circle"></i>
+    </div>
+    <!--todo_click_box-->
+
     <script
       src="https://kit.fontawesome.com/43ef9375c1.js"
       crossorigin="anonymous"
@@ -63,5 +92,6 @@
     <script src="js\clocktime.js"></script>
     <script src="js\greeting.js"></script>
     <script src="js\focus_todo.js"></script>
+    <script src="js\todolis.js"></script>
   </body>
 </html>

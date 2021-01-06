@@ -11,11 +11,11 @@ function getGreetingTime() {
   const greetingHours = greetingDate.getHours();
   if (greetingHours >= 6 && greetingHours <= 12) {
     greetingTitle.innerText = `Good Morning.`;
-  } else if (greetingHours >= 13 && greetingHours <= 18) {
+  } else if (greetingHours >= 13 && greetingHours <= 17) {
     greetingTitle.innerText = `Good afternoon.`;
-  } else if (greetingHours >= 19 && greetingHours <= 21) {
+  } else if (greetingHours >= 18 && greetingHours <= 20) {
     greetingTitle.innerText = `Good Evening.`;
-  } else if (greetingHours >= 22 && greetingHours <= 23) {
+  } else if (greetingHours >= 21 && greetingHours <= 23) {
     greetingTitle.innerText = `Good Night.`;
   } else if (greetingHours >= 0 && greetingHours <= 5) {
     greetingTitle.innerText = `Good Dreams.`;

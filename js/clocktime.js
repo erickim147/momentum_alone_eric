@@ -10,7 +10,6 @@ function getTime() {
   var hours = date.getHours();
   const ampm = hours >= 12 ? "PM" : "AM";
   const minutes = date.getMinutes();
-  const seconds = date.getSeconds();
   hours = hours % 12;
   hours = hours ? hours : 12;
   yearTitle.innerText = `${years}.${month < 10 ? `0${month}` : month}.${
@@ -18,7 +17,7 @@ function getTime() {
   }`;
   timeTitle.innerText = `${ampm} ${hours < 10 ? `0${hours}` : hours} : ${
     minutes < 10 ? `0${minutes}` : minutes
-  } : ${seconds < 10 ? `0${seconds}` : seconds} `;
+  }`;
 }
 
 function init() {
