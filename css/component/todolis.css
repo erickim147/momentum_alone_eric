@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 65%;
-  bottom: 50%;
+  bottom: 52.5%;
   height: 4%;
 }
 .todo_input {
@@ -33,7 +33,7 @@
   position: absolute;
   width: 50%;
   height: 45%;
-  bottom: 40px;
+  bottom: 55px;
   border-radius: 20px;
   background-color: blanchedalmond;
 }
@@ -44,16 +44,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0;
+  bottom: 15px;
   width: 300px;
   height: 40px;
 }
 .click_todolist {
+  cursor: pointer;
   font-size: 23px;
   color: var(--white);
   font-weight: var(--weight);
 }
-#todo_input_close {
+.closeIcon {
+  cursor: pointer;
   color: rgb(255, 2, 2);
   zoom: 1.6;
 }
@@ -118,4 +120,12 @@
 .li_style {
   margin-left: 10px;
   margin-top: 5px;
+}
+
+.text_center_line {
+  text-decoration: line-through;
+}
+
+#display_none {
+  display: none;
 }

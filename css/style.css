@@ -20,3 +20,11 @@ body {
   --white: rgb(255, 255, 255);
   --weight: 700;
 }
+
+.display_none {
+  display: none;
+}
+
+.display_block {
+  display: block;
+}

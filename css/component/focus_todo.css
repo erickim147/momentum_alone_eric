@@ -73,14 +73,6 @@
   color: var(--white);
 }
 
-.display_none {
-  display: none;
-}
-
-.display_block {
-  display: block;
-}
-
 .work_check {
   margin-top: 3px;
   zoom: 1.4;
