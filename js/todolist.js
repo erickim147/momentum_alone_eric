@@ -154,14 +154,19 @@ function loadToDos(LS) {
 }
 
 function toDoNotShowing() {
+  document.querySelector(".today_work_total").classList.remove(NOT_SHOWING);
+  document.querySelector(".today_focus_total").classList.remove(NOT_SHOWING);
   clickTodo.classList.remove(NOT_SHOWING);
-  toDoForm.classList.add(NOT_SHOWING);
-  toDoBox.classList.add(NOT_SHOWING);
+  toDoForm.classList.add(NOT_SHOWING, "animation");
+  toDoBox.classList.add(NOT_SHOWING, "animation");
   clickTodoDel.id = NOT_SHOWING;
 }
 
 function toDoShowing() {
-  clickTodo.classList.add(NOT_SHOWING);
+  document.querySelector(".today_work_total").classList.add(NOT_SHOWING);
+  document.querySelector(".today_focus_total").classList.add(NOT_SHOWING);
+  clickTodo.classList.add(NOT_SHOWING, "animation");
+  clickTodoDel.classList.add(NOT_SHOWING, "animation");
   clickTodoDel.removeAttribute("id");
   toDoForm.classList.remove(NOT_SHOWING);
   toDoBox.classList.remove(NOT_SHOWING);
@@ -170,8 +175,8 @@ function toDoShowing() {
 function clickBox() {
   clickTodo.addEventListener("click", toDoShowing);
   clickTodoDel.addEventListener("click", toDoNotShowing);
-  toDoForm.classList.add(NOT_SHOWING);
-  toDoBox.classList.add(NOT_SHOWING);
+  toDoForm.classList.add(NOT_SHOWING, "animation");
+  toDoBox.classList.add(NOT_SHOWING, "animation");
   clickTodoDel.id = NOT_SHOWING;
 }
 

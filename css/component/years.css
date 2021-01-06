@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: none;
+  z-index: 1;
 }
 
 .date_year__data {

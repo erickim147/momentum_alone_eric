@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 100px;
+  z-index: 1;
 }
 
 .weather_box {
