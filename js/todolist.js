@@ -109,7 +109,7 @@ function paintToDo(text, LS) {
     id: newId,
   };
   span.innerText = text;
-  checkBtn.classList.add("fas", "fa-xs", "fa-check-double", "li_style");
+  checkBtn.classList.add("fas", "fa-xs", "fa-check", "li_style");
   resetBtn.classList.add("fas", "fa-xs", "fa-undo-alt", "li_style");
   delBtn.classList.add("fas", "fa-xs", "fa-times", "li_style");
   checkBtn.addEventListener("click", checkToDo);
