@@ -48,8 +48,8 @@
   height: 45%;
   bottom: 55px;
   border-radius: 20px;
-  border: solid gray 2px;
-  background-color: rgba(255, 255, 240, 0.7);
+  border: solid white 2px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 /* toto-total box */
 
@@ -88,8 +88,8 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  border-right: solid gray 3px;
-  border-bottom: solid gray 3px;
+  border-right: solid white 1px;
+  border-bottom: solid white 1px;
   font-size: 20px;
   color: gray;
   font-weight: var(--weight);
@@ -100,7 +100,7 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  border-bottom: solid gray 3px;
+  border-bottom: solid white 1px;
   font-size: 20px;
   color: gray;
   font-weight: var(--weight);
@@ -124,7 +124,7 @@
 .pending_list {
   width: 50%;
   height: 100%;
-  border-right: solid gray 3px;
+  border-right: solid white 1px;
 }
 .success_list {
   width: 50%;

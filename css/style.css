@@ -4,6 +4,10 @@
 @import "component/greeting.css";
 @import "component/focus_todo.css";
 @import "component/todolis.css";
+@import "weather-icons-master/css/weather-icons-wind.css";
+@import "weather-icons-master/css/weather-icons-wind.min.css";
+@import "weather-icons-master/css/weather-icons.css";
+@import "weather-icons-master/css/weather-icons.min.css";
 
 body {
   width: 100%;

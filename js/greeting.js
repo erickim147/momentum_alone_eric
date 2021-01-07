@@ -66,7 +66,7 @@ function modify() {
 }
 
 function nameModify() {
-  greetingSpan.addEventListener("dblclick", modify);
+  greetingSpan.addEventListener("click", modify);
 }
 
 function init() {
