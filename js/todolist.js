@@ -154,6 +154,7 @@ function loadToDos(LS) {
 }
 
 function toDoNotShowing() {
+  document.querySelector(".greeting").classList.remove(NOT_SHOWING);
   document.querySelector(".today_work_total").classList.remove(NOT_SHOWING);
   document.querySelector(".today_focus_total").classList.remove(NOT_SHOWING);
   clickTodo.classList.remove(NOT_SHOWING);
@@ -163,6 +164,7 @@ function toDoNotShowing() {
 }
 
 function toDoShowing() {
+  document.querySelector(".greeting").classList.add(NOT_SHOWING);
   document.querySelector(".today_work_total").classList.add(NOT_SHOWING);
   document.querySelector(".today_focus_total").classList.add(NOT_SHOWING);
   clickTodo.classList.add(NOT_SHOWING, "animation");

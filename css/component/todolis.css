@@ -48,8 +48,8 @@
   height: 45%;
   bottom: 55px;
   border-radius: 20px;
-  border: solid white 2px;
-  background-color: rgba(255, 255, 255, 0.7);
+  border: solid white 1px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 /* toto-total box */
 
@@ -91,7 +91,7 @@
   border-right: solid white 1px;
   border-bottom: solid white 1px;
   font-size: 20px;
-  color: gray;
+  color: var(--white);
   font-weight: var(--weight);
 }
 .success_box {
@@ -102,16 +102,16 @@
   height: 100%;
   border-bottom: solid white 1px;
   font-size: 20px;
-  color: gray;
+  color: var(--white);
   font-weight: var(--weight);
 }
 .pending_list_ul {
   font-size: 25px;
-  color: gray;
+  color: var(--white);
 }
 .success_list_ul {
   font-size: 25px;
-  color: gray;
+  color: var(--white);
 }
 /* todo-Title-box */
 
