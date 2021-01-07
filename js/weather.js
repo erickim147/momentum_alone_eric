@@ -4,14 +4,14 @@ const icon = document.querySelector("i");
 
 var API_KEY = "7556e151a5567c98f8c38de66e8342d0";
 const COORDS = "coords";
-const WEATHER_DAY_SUNNY = "wi-day-sunny";
-const WEATHER_DAY_CLOUDY = "wi-day-cloudy";
-const WEATHER_CLOUD = "wi-cloud";
-const WEATHER_CLOUDY = "wi-cloudy";
-const WEATHER_RAIN = "wi-rain";
-const WEATHER_THUNDER = "wi-thunderstorm";
-const WEATHER_SNOW = "wi-snow";
-const WEATHER_DUST = "wi-dust";
+const WEATHER_DAY_SUNNY = "fa-sun";
+const WEATHER_DAY_CLOUDY = "fa-cloud-sun";
+const WEATHER_CLOUD = "fa-cloud";
+const WEATHER_CLOUDY = "fa-cloud";
+const WEATHER_RAIN = "fa-umbrella";
+const WEATHER_THUNDER = "fa-poo-storm";
+const WEATHER_SNOW = "fa-snowflake";
+const WEATHER_DUST = "fa-cloud-sun-rain";
 
 function getWeather(lat, lng) {
   fetch(
