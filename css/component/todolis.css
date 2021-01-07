@@ -84,37 +84,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  border-top-left-radius: 10px;
+  margin-right: 3px;
+  margin-bottom: 3px;
   width: 50%;
   height: 100%;
   font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: var(--white);
   font-weight: var(--weight);
 }
 .success_box {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-bottom: 5px;
+  border-top-right-radius: 10px;
+  margin-left: 3px;
+  margin-bottom: 3px;
   width: 50%;
   height: 100%;
   font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: var(--white);
   font-weight: var(--weight);
 }
 .pending_list_ul {
   font-size: 25px;
-  color: var(--white);
 }
 .success_list_ul {
   font-size: 25px;
-  color: var(--white);
 }
 /* todo-Title-box */
 
@@ -125,25 +119,25 @@
   height: 90%;
 }
 .pending_list {
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
-  margin-right: 5px;
-  margin-top: 5px;
+  border-bottom-left-radius: 10px;
+  margin-right: 3px;
+  margin-top: 3px;
   width: 50%;
   height: 100%;
 }
 .success_list {
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
-  margin-left: 5px;
-  margin-top: 5px;
+  border-bottom-right-radius: 10px;
+  margin-left: 3px;
+  margin-top: 3px;
   width: 50%;
   height: 100%;
 }
 /* list_box */
 .li_style {
+  cursor: pointer;
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 3px;
+  opacity: 0.5;
 }
 
 .text_center_line {
