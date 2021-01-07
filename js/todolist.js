@@ -34,7 +34,7 @@ function resetToDo(event) {
   const li = btn.parentNode;
   const checkBtn = li.querySelector(".fa-undo-alt");
   checkBtn.classList.remove("fa-undo-alt");
-  checkBtn.classList.add("fa-check-double");
+  checkBtn.classList.add("fa-check");
   checkBtn.removeEventListener("click", resetToDo);
   checkBtn.addEventListener("click", checkToDo);
   pendingList.appendChild(li);
@@ -74,8 +74,8 @@ function selectedToDo(PENDING_LS, id) {
 function checkToDo(event) {
   const btn = event.target;
   const li = btn.parentNode;
-  const checkBtn = li.querySelector(".fa-check-double");
-  checkBtn.classList.remove("fa-check-double");
+  const checkBtn = li.querySelector(".fa-check");
+  checkBtn.classList.remove("fa-check");
   checkBtn.classList.add("fa-undo-alt");
   checkBtn.removeEventListener("click", checkToDo);
   checkBtn.addEventListener("click", resetToDo);
