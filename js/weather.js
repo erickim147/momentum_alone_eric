@@ -26,23 +26,26 @@ function getWeather(lat, lng) {
       const iconVal = json.weather[0].icon;
       weather_temp.innerText = `${temperature}°`;
       weather_place.innerText = `${place} .Korea`;
-      if (iconVal === "01n" || "01d") {
-        icon.classList.add(WEATHER_DAY_SUNNY);
-      } else if (iconVal === "02d" || "02n") {
-        icon.classList.add(WEATHER_DAY_CLOUDY);
-      } else if (iconVal === "03d" || "03n") {
-        icon.classList.add(WEATHER_CLOUD);
-      } else if (iconVal === "04d" || "04n") {
-        icon.classList.add(WEATHER_CLOUDY);
-      } else if (iconVal === "09d" || "09n" || "10d" || "10n") {
-        icon.classList.add(WEATHER_RAIN);
-      } else if (iconVal === "11d" || "11n") {
-        icon.classList.add(WEATHER_THUNDER);
-      } else if (iconVal === "13d" || "13n") {
-        icon.classList.add(WEATHER_SNOW);
-      } else if (iconVal === "50d" || "50n") {
-        icon.classList.add(WEATHER_DUST);
+      if (iconVal === "01n" || iconVal === "01d") {
+        icon.classList.add("far", WEATHER_DAY_SUNNY);
+      } else if (iconVal === "02d" || iconVal === "02n") {
+        icon.classList.add("fas", WEATHER_DAY_CLOUDY);
+      } else if (iconVal === "03d" || iconVal === "03n") {
+        icon.classList.add("fas", WEATHER_CLOUD);
+      } else if (iconVal === "04d" || iconVal === "04n") {
+        icon.classList.add("fas", WEATHER_CLOUDY);
+      } else if (iconVal === "09d" || iconVal === "09n") {
+        icon.classList.add("fas", WEATHER_RAIN);
+      } else if (iconVal === "10d" || iconVal === "10n") {
+        icon.classList.add("fas", WEATHER_RAIN);
+      } else if (iconVal === "11d" || iconVal === "11n") {
+        icon.classList.add("fas", WEATHER_THUNDER);
+      } else if (iconVal === "13d" || iconVal === "13n") {
+        icon.classList.add("fas", WEATHER_SNOW);
+      } else if (iconVal === "50d" || iconVal === "50n") {
+        icon.classList.add("fas", WEATHER_DUST);
       }
+      console.log(iconVal);
     });
 }
 
